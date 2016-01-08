@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><module codename="eu.fidli.blockNavigation">
+    <module_version install_time="1442350816302" last="true" origin="installer" specification_version="1.0">
+        <file crc="2262277835" name="config/Modules/eu-fidli-blockNavigation.xml"/>
+        <file crc="103311082" name="modules/eu-fidli-blockNavigation.jar"/>
+    </module_version>
+</module>

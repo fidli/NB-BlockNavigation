@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE filesystem PUBLIC "-//NetBeans//DTD Filesystem 1.2//EN"
+                            "http://www.netbeans.org/dtds/filesystem-1_2.dtd">
+<filesystem>
+    <folder name="Actions">
+        <folder name="Edit">
+            <file name="eu-fidli-blockNavigation-Downwards.instance">
+                <!--eu.fidli.blockNavigation.Downwards-->
+                <attr
+                    bundlevalue="eu.fidli.blockNavigation.Bundle#CTL_Downwards" name="displayName"/>
+                <attr
+                    methodvalue="org.openide.awt.Actions.alwaysEnabled" name="instanceCreate"/>
+                <attr name="delegate" newvalue="eu.fidli.blockNavigation.Downwards"/>
+                <attr boolvalue="false" name="noIconInMenu"/>
+            </file>
+            <file name="eu-fidli-blockNavigation-JumpToBeginningOfSegment.instance">
+                <!--eu.fidli.blockNavigation.JumpToBeginningOfSegment-->
+                <attr
+                    bundlevalue="eu.fidli.blockNavigation.Bundle#CTL_JumpToBeginningOfSegment" name="displayName"/>
+                <attr
+                    methodvalue="org.openide.awt.Actions.alwaysEnabled" name="instanceCreate"/>
+                <attr name="delegate" newvalue="eu.fidli.blockNavigation.JumpToBeginningOfSegment"/>
+                <attr boolvalue="false" name="noIconInMenu"/>
+            </file>
+            <file name="eu-fidli-blockNavigation-JumpToEndOfSegment.instance">
+                <!--eu.fidli.blockNavigation.JumpToEndOfSegment-->
+                <attr
+                    bundlevalue="eu.fidli.blockNavigation.Bundle#CTL_JumpToEndOfSegment" name="displayName"/>
+                <attr
+                    methodvalue="org.openide.awt.Actions.alwaysEnabled" name="instanceCreate"/>
+                <attr name="delegate" newvalue="eu.fidli.blockNavigation.JumpToEndOfSegment"/>
+                <attr boolvalue="false" name="noIconInMenu"/>
+            </file>
+            <file name="eu-fidli-blockNavigation-Upwards.instance">
+                <!--eu.fidli.blockNavigation.Upwards-->
+                <attr
+                    bundlevalue="eu.fidli.blockNavigation.Bundle#CTL_Upwards" name="displayName"/>
+                <attr
+                    methodvalue="org.openide.awt.Actions.alwaysEnabled" name="instanceCreate"/>
+                <attr name="delegate" newvalue="eu.fidli.blockNavigation.Upwards"/>
+                <attr boolvalue="false" name="noIconInMenu"/>
+            </file>
+        </folder>
+    </folder>
+    <folder name="Menu">
+        <folder name="GoTo">
+            <file name="eu-fidli-blockNavigation-Downwards.shadow">
+                <!--eu.fidli.blockNavigation.Downwards-->
+                <attr name="originalFile" stringvalue="Actions/Edit/eu-fidli-blockNavigation-Downwards.instance"/>
+                <attr intvalue="1176" name="position"/>
+            </file>
+            <file name="eu-fidli-blockNavigation-JumpToBeginningOfSegment.shadow">
+                <!--eu.fidli.blockNavigation.JumpToBeginningOfSegment-->
+                <attr name="originalFile" stringvalue="Actions/Edit/eu-fidli-blockNavigation-JumpToBeginningOfSegment.instance"/>
+                <attr intvalue="1187" name="position"/>
+            </file>
+            <file name="eu-fidli-blockNavigation-JumpToEndOfSegment.shadow">
+                <!--eu.fidli.blockNavigation.JumpToEndOfSegment-->
+                <attr name="originalFile" stringvalue="Actions/Edit/eu-fidli-blockNavigation-JumpToEndOfSegment.instance"/>
+                <attr intvalue="1188" name="position"/>
+            </file>
+            <file name="eu-fidli-blockNavigation-Upwards.shadow">
+                <!--eu.fidli.blockNavigation.Upwards-->
+                <attr name="originalFile" stringvalue="Actions/Edit/eu-fidli-blockNavigation-Upwards.instance"/>
+                <attr intvalue="1175" name="position"/>
+            </file>
+        </folder>
+    </folder>
+    <folder name="Shortcuts">
+        <file name="D-DOWN.shadow">
+            <!--eu.fidli.blockNavigation.Downwards-->
+            <attr name="originalFile" stringvalue="Actions/Edit/eu-fidli-blockNavigation-Downwards.instance"/>
+        </file>
+        <file name="O-LEFT.shadow">
+            <!--eu.fidli.blockNavigation.JumpToBeginningOfSegment-->
+            <attr name="originalFile" stringvalue="Actions/Edit/eu-fidli-blockNavigation-JumpToBeginningOfSegment.instance"/>
+        </file>
+        <file name="O-RIGHT.shadow">
+            <!--eu.fidli.blockNavigation.JumpToEndOfSegment-->
+            <attr name="originalFile" stringvalue="Actions/Edit/eu-fidli-blockNavigation-JumpToEndOfSegment.instance"/>
+        </file>
+        <file name="D-UP.shadow">
+            <!--eu.fidli.blockNavigation.Upwards-->
+            <attr name="originalFile" stringvalue="Actions/Edit/eu-fidli-blockNavigation-Upwards.instance"/>
+        </file>
+    </folder>
+</filesystem>

@@ -1,0 +1,6 @@
+Manifest-Version: 1.0
+AutoUpdate-Show-In-Client: true
+OpenIDE-Module: eu.fidli.blockNavigation
+OpenIDE-Module-Localizing-Bundle: eu/fidli/blockNavigation/Bundle.properties
+OpenIDE-Module-Specification-Version: 1.0
+
